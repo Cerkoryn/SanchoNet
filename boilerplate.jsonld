@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.w3.org/ns/json-ld",
+  "@type": "GovernanceMetadata",
+  "hashAlgorithm": "blake2b-256",
+  "authors": [
+    {
+      "name": "Lorem Ipsum",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a1d0c6e83f027327d8461063f4ac58a6",
+        "signature": "d4c3bfc47270b659b059d655f2127a3f"
+      }
+    }
+  ],
+  "body": {
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Lorem Ipsum Reference",
+        "uri": "https://example.com/lorem-ipsum"
+      }
+    ],
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "externalUpdates": [
+      {
+        "title": "Lorem Ipsum Update",
+        "uri": "https://example.com/lorem-ipsum-update"
+      }
+    ]
+  },
+  "@language": "en"
+}
