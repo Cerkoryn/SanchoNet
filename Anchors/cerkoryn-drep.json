@@ -1,0 +1,14 @@
+{
+  "@context": "https://raw.githubusercontent.com/cardano-foundation/CIPs/master/CIP-0100/cip-0100.common.jsonld",
+  "hashAlgorithm": "blake2b-256",
+  "authors": [
+    { "name": "Cerkoryn", "witness": { "witnessAlgorithm": "ed25519", "publicKey": "", "signature": ""}}
+  ],
+  "body": {
+    "references": [],
+    "comment": "This is a dRep anchor for Cerkoryn on SanchoNet.",
+    "externalUpdates": [
+      { "title": "Twitter", "uri": "https://twitter.com/Cerkoryn" }
+    ]
+  }
+}
